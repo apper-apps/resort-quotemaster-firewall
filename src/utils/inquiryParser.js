@@ -10,12 +10,12 @@ export const parseInquiry = (inquiryText) => {
 
   const text = inquiryText.toLowerCase();
 
-  // Parse dates
+// Parse dates
   const datePatterns = [
-    /(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})/g,
+    /(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})/g,
     /(\d{1,2})\s*(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/gi,
-    /(check.?in|arrival)[\s:]*(\d{1,2})[\/\-](\d{1,2})/gi,
-    /(check.?out|departure)[\s:]*(\d{1,2})[\/\-](\d{1,2})/gi
+    /(check.?in|arrival)[\s:]*(\d{1,2})[/-](\d{1,2})/gi,
+    /(check.?out|departure)[\s:]*(\d{1,2})[/-](\d{1,2})/gi
   ];
 
   let dates = [];
