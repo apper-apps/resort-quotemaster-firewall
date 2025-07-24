@@ -1,0 +1,52 @@
+{
+  "seasons": {
+    "peak": {
+      "name": "Peak Season",
+      "rates": {
+        "deluxe": { "withAC": 8500, "withoutAC": 7000 },
+        "super_deluxe": { "withAC": 10500, "withoutAC": 8500 },
+        "suite": { "withAC": 15000, "withoutAC": 12000 }
+      }
+    },
+    "high": {
+      "name": "High Season", 
+      "rates": {
+        "deluxe": { "withAC": 7000, "withoutAC": 5500 },
+        "super_deluxe": { "withAC": 8500, "withoutAC": 7000 },
+        "suite": { "withAC": 12000, "withoutAC": 9500 }
+      }
+    },
+    "regular": {
+      "name": "Regular Season",
+      "rates": {
+        "deluxe": { "withAC": 5500, "withoutAC": 4500 },
+        "super_deluxe": { "withAC": 7000, "withoutAC": 5500 },
+        "suite": { "withAC": 9500, "withoutAC": 7500 }
+      }
+    },
+    "low": {
+      "name": "Low Season",
+      "rates": {
+        "deluxe": { "withAC": 4500, "withoutAC": 3500 },
+        "super_deluxe": { "withAC": 5500, "withoutAC": 4500 },
+        "suite": { "withAC": 7500, "withoutAC": 6000 }
+      }
+    }
+  },
+  "mealPlans": {
+    "EP": { "name": "European Plan", "rate": 0 },
+    "CP": { "name": "Continental Plan", "rate": 800 },
+    "MAP": { "name": "Modified American Plan", "rate": 1500 },
+    "AP": { "name": "American Plan", "rate": 2200 }
+  },
+  "extraCharges": {
+    "childBed": 1500,
+    "extraAdult": 2000,
+    "pet": 500
+  },
+  "gstThreshold": 7500,
+  "gstRates": {
+    "below": 0.12,
+    "above": 0.18
+  }
+}
